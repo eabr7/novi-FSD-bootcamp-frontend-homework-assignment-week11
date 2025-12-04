@@ -4,6 +4,7 @@ import imageOfTheHandyBag from "./assets/bag_1.png";
 import imageOfTheStylishBag from "./assets/bag_2.png";
 import imageOfTheSimpleBag from "./assets/bag_3.png";
 import imageOfTheTrendyBag from "./assets/bag_4.png";
+import Product from "./components/Product.jsx";
 
 
 function App() {
@@ -28,6 +29,10 @@ function App() {
       </nav>
 
       <main>
+          <Product
+              bestSellerLableText="Best seller"
+
+          />
           <article className="/">
               <span>Best seller</span>
               <img src={imageOfTheHandyBag} alt="An image of the handy bag."/>
