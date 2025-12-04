@@ -4,7 +4,7 @@ function Tile({tileImage, tileTitle, altTextOfTileImage, children}) {
     return (
 
         <section className="/">
-            <img src={tileImage} alt={altTextOfTileImage} />
+            {tileImage && <img src={tileImage} alt={altTextOfTileImage} />}
             <h2>{tileTitle}</h2>
             {children}
         </section>
