@@ -59,11 +59,12 @@ function App() {
             </main>
 
             <footer>
-                <Tile
-                tileTitle="the brand"
-                tileDescription="lorem ipsum sit amet consectetur adipiscing elit. Aliquid culpa dolorum enim excepturi, fuga
-                        pariatur praesentium quia sequi similique sunt."
-                />
+                <Tile tileTitle="the brand">
+                    <p>lorem ipsum sit amet consectetur adipiscing elit. Aliquid culpa dolorum enim excepturi, fuga
+                        pariatur praesentium quia sequi similique sunt.</p>
+                    <p>lorem ipsum sit amet consectetur adipiscing elit. Aliquid culpa dolorum enim excepturi, fuga
+                        pariatur praesentium quia sequi similique sunt.</p>
+                </Tile>
                <Tile
                tileImage={imageOfTheBrand}
                altTextOfTileImage="An image of the brand."
@@ -72,13 +73,12 @@ function App() {
                    tileImage={imageOfOurStory}
                    altTextOfTileImage="An image of our story."
                />
-                <Tile
-                    tileTitle="our story"
-                    tileDescription="lorem ipsum sit amet consectetur adipiscing elit. Aliquid culpa dolorum enim excepturi, fuga
+                <Tile tileTitle="our story">
+                    <p>lorem ipsum sit amet consectetur adipiscing elit. Aliquid culpa dolorum enim excepturi, fuga
                         pariatur praesentium quia sequi similique sunt. lorem ipsum sit amet consectetur adipiscing
                         elit. Aliquid culpa dolorum enim excepturi, fuga
-                        pariatur praesentium quia sequi similique sunt."
-                />
+                        pariatur praesentium quia sequi similique sunt.</p>
+                </Tile>
             </footer>
         </>
     )

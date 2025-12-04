@@ -1,12 +1,12 @@
 import "./Tile.css";
 
-function Tile({tileImage, altTextOfTileImage, tileTitle, tileDescription}) {
+function Tile(props) {
     return (
 
         <section className="/">
-            <img src={tileImage}/> alt={altTextOfTileImage} />
-            <h2>{tileTitle}</h2>
-            <p>{tileDescription}</p>
+            <img src={props.tileImage} alt={props.altTextOfTileImage} />
+            <h2>{props.tileTitle}</h2>
+            {props.children}
         </section>
 
     );
