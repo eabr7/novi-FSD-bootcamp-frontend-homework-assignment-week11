@@ -30,33 +30,29 @@ function App() {
 
       <main>
           <Product
-              bestSellerLableText="Best seller"
-
+              imageOfTheBag={imageOfTheHandyBag}
+              altTextOfTheBagImage="An image of the handy bag."
+              productDescription="The handy bag"
+              productPrice="€400,-"
           />
-          <article className="/">
-              <span>Best seller</span>
-              <img src={imageOfTheHandyBag} alt="An image of the handy bag."/>
-              <p>The handy bag</p>
-              <h4>€400,-</h4>
-          </article>
-          <article className="/">
-              <span>Best seller</span>
-              <img src={imageOfTheStylishBag} alt="An image of the stylish bag."/>
-              <p>The stylish bag</p>
-              <h4>€250,-</h4>
-          </article>
-          <article className="/">
-              <span>Best seller</span>
-              <img src={imageOfTheSimpleBag} alt="An image of the simple bag."/>
-              <p>The simple bag</p>
-              <h4>€300,-</h4>
-          </article>
-          <article className="/">
-              <span>Best seller</span>
-              <img src={imageOfTheTrendyBag} alt="An image of the trendy bag."/>
-              <p>The trendy bag</p>
-              <h4>€150,-</h4>
-          </article>
+          <Product
+              imageOfTheBag={imageOfTheStylishBag}
+              altTextOfTheBagImage="An image of the stylish bag."
+              productDescription="The stylish bag"
+              productPrice="€250,-"
+          />
+          <Product
+              imageOfTheBag={imageOfTheSimpleBag}
+              altTextOfTheBagImage="An image of the simple bag."
+              productDescription="The simple bag"
+              productPrice="€300,-"
+          />
+          <Product
+              imageOfTheBag={imageOfTheTrendyBag}
+              altTextOfTheBagImage="An image of the trendy bag."
+              productDescription="The trendy bag"
+              productPrice="€150,-"
+          />
       </main>
 
 

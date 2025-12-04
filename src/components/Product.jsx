@@ -1,17 +1,15 @@
 import "./Product.css";
 
-function Product({textOfTheBestSellerLable, imageOfTheBag, altTextOfTheBagImage, productDescription, productPrice}) {
+function Product({imageOfTheBag, altTextOfTheBagImage, productDescription, productPrice}) {
 
     return (
-
         <article className="/">
-            <span>{textOfTheBestSellerLable}</span>
+            <span>Best seller</span>
             <img src={imageOfTheBag} alt={altTextOfTheBagImage}/>
             <p>{productDescription}</p>
             <h4>{productPrice}</h4>
         </article>
     );
-
 
 }
 
