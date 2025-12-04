@@ -19,13 +19,15 @@ function App() {
                 <Button
                     buttonAction="to the collection"
                     description="to the collection"
+                    disableButton={false}
                 />
                 <Button
                     buttonAction="shop all bags"
                     description="shop all bags"
+                    disableButton={false}
                 />
                 <Button
-                    buttonAction="/"
+                    buttonAction="pre-orders"
                     description="pre-orders"
                     disableButton={true}
                 />
@@ -33,28 +35,32 @@ function App() {
 
             <main>
                 <Product
+                    labelText="Best seller"
                     imageOfTheBag={imageOfTheHandyBag}
                     altTextOfTheBagImage="An image of the handy bag."
                     productDescription="The handy bag"
-                    productPrice="€400,-"
+                    productPrice="400"
                 />
                 <Product
+                    labelText="Best seller"
                     imageOfTheBag={imageOfTheStylishBag}
                     altTextOfTheBagImage="An image of the stylish bag."
                     productDescription="The stylish bag"
-                    productPrice="€250,-"
+                    productPrice="250"
                 />
                 <Product
+                    labelText="New collection"
                     imageOfTheBag={imageOfTheSimpleBag}
                     altTextOfTheBagImage="An image of the simple bag."
                     productDescription="The simple bag"
-                    productPrice="€300,-"
+                    productPrice="300"
                 />
                 <Product
+                    labelText="New collection"
                     imageOfTheBag={imageOfTheTrendyBag}
                     altTextOfTheBagImage="An image of the trendy bag."
                     productDescription="The trendy bag"
-                    productPrice="€150,-"
+                    productPrice="150"
                 />
             </main>
 

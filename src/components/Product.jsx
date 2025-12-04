@@ -1,13 +1,13 @@
 import "./Product.css";
 
-function Product({imageOfTheBag, altTextOfTheBagImage, productDescription, productPrice}) {
+function Product({labelText, imageOfTheBag, altTextOfTheBagImage, productDescription, productPrice}) {
 
     return (
         <article className="/">
-            <span>Best seller</span>
+            <span>{labelText}</span>
             <img src={imageOfTheBag} alt={altTextOfTheBagImage}/>
             <p>{productDescription}</p>
-            <h4>{productPrice}</h4>
+            <h4>€{productPrice},-</h4>
         </article>
     );
 
